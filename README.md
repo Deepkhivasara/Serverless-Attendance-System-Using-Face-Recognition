@@ -1,10 +1,10 @@
 # Serverless-Attendance-System-Using-Face-Recognition
 
-Overview:
+**Overview:**
 
 A modern, cloud-powered Face Recognition Attendance System built using AWS Lambda, Amazon Rekognition, DynamoDB, and S3. This serverless web app allows seamless, accurate employee attendance marking and provides real-time analytics for admins.
 
-Key Features:
+**Key Features:**
 
 Face recognition-based marking with >90% accuracy
 
