@@ -12,7 +12,7 @@ Instant dashboard analytics (daily, weekly summary)
 
 Secure, scalable, and cost-effective AWS architecture
 
-Table of Contents:
+**Table of Contents:**
 
 Architecture
 
@@ -26,8 +26,7 @@ Tech Stack
 
 Project Structure
 
-Architecture:
-
+**Architecture:**
 Frontend: Static website hosted in Amazon S3 (HTML/JS/CSS)
 
 Backend: AWS Lambda functions (Python), integrated via API Gateway/Lambda Function URL
@@ -36,7 +35,7 @@ Face Processing: Amazon Rekognition Collection
 
 Data Storage: DynamoDB for attendance records, S3 for image uploads
 
-Features:
+**Features:**
 
 Fast & Accurate Attendance: Attendance is marked automatically for faces matching >90% similarity.
 
@@ -46,22 +45,18 @@ Robust Security: All user images are base64-encoded and securely transmitted.
 
 Easy Integration: RESTful APIs with correct CORS headers; simple deployment; extensible for other business scenarios.
 
-Setup & Deployment
+**Setup & Deployment:**
 
 Frontend:
-
 Place static files (index.html, index.js, style.css) inside /frontend
-
 Host the frontend on Amazon S3 (static website hosting enabled)
 
 Backend:
 Write Lambda functions in lambda_function.py
-
 Deploy Lambda function and set up API Gateway or Lambda Function URL
-
 Connect Lambda to DynamoDB table and Rekognition collection
 
-AWS Resources:
+**AWS Resources:**
 
 Create DynamoDB table (e.g., EmployeeAttendance)
 
@@ -69,17 +64,17 @@ Create an S3 bucket for image uploads
 
 Create a Rekognition collection (e.g., employee_faces)
 
-Configuration:
+**Configuration:**
 
 Update config variables in frontend (apiUrl, etc.)
 
-Usage:
+**Usage:**
 
 Employee: Scan face via browser, attendance is marked automatically.
 
 Admin: Login to dashboard, view daily/weekly summaries, export data.
 
-Tech Stack:
+**Tech Stack:**
 
 AWS Lambda (Python)
 
