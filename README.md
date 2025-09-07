@@ -27,6 +27,7 @@ Tech Stack
 Project Structure
 
 **Architecture:**
+
 Frontend: Static website hosted in Amazon S3 (HTML/JS/CSS)
 
 Backend: AWS Lambda functions (Python), integrated via API Gateway/Lambda Function URL
@@ -48,12 +49,17 @@ Easy Integration: RESTful APIs with correct CORS headers; simple deployment; ext
 **Setup & Deployment:**
 
 Frontend:
+
 Place static files (index.html, index.js, style.css) inside /frontend
+
 Host the frontend on Amazon S3 (static website hosting enabled)
 
 Backend:
+
 Write Lambda functions in lambda_function.py
+
 Deploy Lambda function and set up API Gateway or Lambda Function URL
+
 Connect Lambda to DynamoDB table and Rekognition collection
 
 **AWS Resources:**
